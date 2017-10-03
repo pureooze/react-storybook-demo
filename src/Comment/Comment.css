@@ -1,0 +1,11 @@
+.Comment {
+    padding-bottom: 1em;
+}
+
+.title {
+    background-color: lightslategrey;
+}
+
+.content {
+    background-color: gainsboro;
+}

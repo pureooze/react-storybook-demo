@@ -1,0 +1,8 @@
+.CommentForm {
+    padding-bottom: 1em;
+}
+
+.commentInput {
+    border: 4px solid rgba(0,0,0,0.1);
+    width: 350px;
+}
