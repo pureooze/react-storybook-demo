@@ -15,9 +15,9 @@ var comments = [
 ]
 
 storiesOf('App', module)
-    .add('No comments', () => <App />)
-    .add('Some comments', () => <App comments={comments}/>);
+  .add('No comments', () => <App />)
+  .add('Some comments', () => <App comments={comments}/>);
 
 storiesOf('Comments', module)
-    .add('No comments', () => <Comments/>)
-    .add('Some comments', () => <Comments comments={comments}/>);
+  .add('No comments', () => <Comments/>)
+  .add('Some comments', () => <Comments comments={comments}/>);
