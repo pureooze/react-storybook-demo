@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Comments</h1>
-        <CommentForm />
+        <CommentForm comments={this.props.comments}/>
         <Comments comments={this.props.comments}/>
       </div>
     );
